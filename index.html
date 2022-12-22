@@ -4,7 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>CountDown-App-javascript</title>
   </head>
-  <body></body>
+  <body>
+    <div id="container">
+      <h1>Start your countDown</h1>
+      <div id="time_container">
+        <input type="number" id="hr" class="content" value="00" />
+        <input type="number" id="min" class="content" value="00" />
+        <input type="number" id="sec" class="content" value="00" />
+      </div>
+
+      <div class="btn-container">
+        <button class="btn" id="start">start</button>
+        <button class="btn" id="stop">Stop</button>
+        <button class="btn" id="reset">reset</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
